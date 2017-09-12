@@ -1,0 +1,134 @@
+body {
+    padding-top: 0px;
+}
+.colcol {
+    border: 1px solid black;
+    /*height: 200px;*/
+}
+
+.navbar-fixed-top {
+    background-color: #161821;
+}
+.navbar-brand {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 140%;
+    margin-top: 5px;
+    padding: 2.5px;
+}
+.navbar button {
+    color: white;
+    margin-top: 4px;
+}
+.nav-item {
+    font-family: 'Armata', sans-serif;
+    padding: 2.5px;
+}
+.carousel-item img {
+    width: 100%;
+    min-height: 250px;
+}
+.carousel-item {
+    width: 100%;
+    background-color: #5F637D;
+ }
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: #444;
+}
+#mainContent {
+    margin-bottom: 80px;
+}
+.Beschreibung {
+    margin-top: 20px;
+    line-height: 180%;
+    font-size: 110%;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+div h2 {
+    font-family: 'Roboto', sans-serif;
+}
+div p {
+    font-family: 'Roboto', sans-serif;  
+}
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: normal;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .img-circle {
+      margin-bottom: 20px;
+  }
+  .img-responsive {
+    margin: 0 auto;
+}
+  footer {
+      font-size: 120%;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 50px;
+  }
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+
+
+
+
+
+
+
+@media(min-width:1200px) {
+    .carousel-item img {
+        width: 85%;
+        margin-left: 0%;
+        margin-right: 0%;
+        min-height: 400px;
+        max-height: 450px;
+    }
+}
+@media(max-width:991px) {
+    .featurette-image {
+        margin-top: 40px;
+    }
+    
+}
+
+@media(max-width:767px) {
+
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float: none !important;
+    }
+    .navbar .collapse.in,
+    .navbar .collapsing {
+        clear: both;
+    }
+}

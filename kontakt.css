@@ -1,0 +1,84 @@
+body {
+    padding-top: 0px;
+}
+.colcol {
+    border: 1px solid black;
+    /*height: 200px;*/
+}
+
+.navbar-fixed-top {
+    background-color: #161821;
+}
+.navbar-brand {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 140%;
+    margin-top: 5px;
+    padding: 2.5px;
+}
+.navbar button {
+    color: white;
+    margin-top: 4px;
+}
+.nav-item {
+    font-family: 'Armata', sans-serif;
+    padding: 2.5px;
+}
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+.container p {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    line-height: 1.8;
+}
+.col1 {
+    border: 5px solid #363c66;
+    border-radius: 12.5px;
+    padding: 2.5%;
+    background-color: #D2DFFF;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.col2 {
+    padding: 25px;
+    background-color: #363c66;
+    border: 1px solid #363c66;
+    border-radius: 12.5px;
+    color: white;
+    margin-bottom: 100px;
+}
+label {
+    margin: 12px 0 12px 0;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 115%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width:767px) {
+    
+        .navbar .navbar-nav>.nav-item {
+            float: none;
+            margin-left: .1rem;
+        }
+        .navbar .navbar-nav {
+            float: none !important;
+        }
+        .navbar .collapse.in,
+        .navbar .collapsing {
+            clear: both;
+        }
+    }

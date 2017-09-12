@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <link rel="icon" type="image/ico" href="Bilder/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Armata|Baloo+Bhaina" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="Artikel.css">
+</head>
+
+<body>
+
+        <nav class="navbar navbar-fixed-top navbar-dark">
+            <button class="navbar-toggler hidden-md-up pull-xs-right" type="button" data-toggle="collapse" data-target="#mainmenu"> ☰</button>
+
+            <a href="#" class="navbar-brand">Mathematische Linse</a>
+            <div class="collapse navbar-toggleable-sm" id="mainmenu">
+                <ul class="nav navbar-nav pull-md-right" style="margin-right: 20px">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Mathe im Abitur</a></li>
+                    <li class="nav-item"><a href="Themengebiete.html" class="nav-link">Themengebiete</a></li>
+                    <li class="nav-item"><a href="Kontakt.html" class="nav-link">Kontakt</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-responsive">
+                    <h1 class="h1">Substitution</h1>
+                    <p>
+                    Substitution ist ein schickes Wort für "Wechsel".
+                    Die Substitution wird meist zum Lösen biquadratischer Gleichungen genutzt,
+                    also für Gleichungen der Form: $$ax^4+bx^3+cx^2+dx+e=0$$</p>
+                    <p class="center">Angenommen wir haben die Gleichung: $$x^4+x^2-12=0$$</p>
+                    <p>Wir können diese Gleichung weder mit der Mitternachts-Formel noch der<br> p-q-Formel lösen, auch nicht mit Ausklammern oder sonstigem Umformen.<br><br>
+                    Substitution erlaubt uns nun, diese biquadratische Gleichung<br> in eine quadratische Gleichung umzuformen, also: 
+                    $$ax^4+bx^3+cx^2+dx+e=0$$
+                    $$\downarrow$$
+                    $$ax^2+bx+c=0$$</p>
+                    <br>
+                    <p>Aus dem $x^4$ in unserer Gleichung muss also irgendwie ein $x^2$ werden.<br> Dies schaffen wir, indem wir eine neue Variable definieren.<br>
+                    Wir definieren $x^2$ als
+                    $w$, also: $x^2=w$.<br>
+                    Wenn wir dieses $w$ nun in unsere Ursprungsgleichung $x^4+x^2-12=0$ einsetzen,
+                    $$x^4+x^2-12=0$$
+                    $$\downarrow$$
+                    $$(x^2)^2+x^2-12=0$$
+                    $$x^2=w$$
+                    $$\downarrow$$
+                    $$w^2+w-12=0$$
+                    ...haben wir nun unsere quadratische Gleichung, enstanden aus der<br> biquadratischen Gleichung.
+                    Wie man quadratische Gleichungen löst, können sie in unserem anderen
+                    Artikel nachlesen. <br>
+                    </p>
+                    <p class="mitte">Wir erhalten die zwei Lösungen:
+                    $$w_1=3$$
+                    $$w_2=-4$$
+                    <br>
+                    </p>
+                    <p>Wir sind aber noch nicht ganz fertig, da wir schließlich nur die Lösungen der Gleichung $w^2+w-12=0$ haben, nicht jedoch die Lösungen der Gleichung $x^4+x^2-12=0$
+                    Wir müssen also die Substitution rückgängig machen. <br>Dies nennt man <span class="underline">Rücksubstitution</span>.</p>
+                    <br>
+                    <p class="mitte">
+                    $w_1=3$ und $w_2=-4$
+                    $$\downarrow$$
+                    $x^2=3$ und $x^2=-4$
+                    $$\downarrow$$
+                    $x_1=\pm\sqrt[2]{3}$ und $x_2=$ undefiniert in $\mathbb{R}$ 
+                    <br><br>Unsere Lösungsmenge der Gleichung lautet also:<br>
+                    $$\mathbb{L}=\{\pm\sqrt[2]{3}\:|\:x\:\epsilon\:\mathbb{R}\}$$
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <p style="margin-bottom: 30px; margin-top: 30px;">
+                    <span class="mitte underline gross">Aufgaben zum Üben:</span>
+                    <br></p>
+                    <p style="margin-top: 20px">
+                    <span class="underline">Aufgabe 1: (leicht)</span><br>
+                    Löse die Gleichung nach $x$ auf.
+                    <br>
+                    $x^4+3x^2-10=0$
+                    <br><br>
+                    <span class="underline">Aufgabe 2: (leicht)</span><br>
+                    Löse die Gleichung nach $x$ auf.
+                    <br>
+                    $x^6+3x^3-10=0$
+                    <br><br>
+                    <span class="underline">Aufgabe 3: (mittel)</span><br>
+                    Löse die Gleichung nach $x$ auf.
+                    <br>
+                    $(x-3)^4=16$
+                    <br><br>
+                    <span class="underline">Aufgabe 4: (mittel)</span><br>
+                    Löse die Gleichung nach $x$ auf.
+                    <br>
+                    $x^5+6x^3-7x=0$
+                    <br><br>
+                    <span class="underline">Aufgabe 5: (schwer)</span><br>
+                    Löse die Gleichung nach $x$ auf. 
+                    <br>
+                    $(\frac{x^2-15}{x^2+7}+1)^2+\frac{x^2-15}{x^2+7}+1=0$
+                    $<br><br>
+                    </p>
+
+                    
+
+                </div>
+            </div>    
+        </div>
+        <footer>
+            <center><p><a href="#">Zurück nach oben</a></p></center>
+        </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+        </script>>
+</body>
+
+</html>
